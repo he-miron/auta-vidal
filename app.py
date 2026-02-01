@@ -18,7 +18,7 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 # Link direto para os dados (Exportado como CSV)
-URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQV4Cj-QnWSfJLD5I5TwNfEW6F0Ti_YFPve0yyzqOAW9clUyLlRvohv9ZKm7kGD7x6xTVo0qKlYohKl/pub?output=csv"
+URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQV4Cj-QnWSfJLD5I5TwNfEW6F0Ti_YFPve0yyzqOAW9clUyLlRvohv9ZKm7kGD7x6xTVo0qKlYohKl/pub?gid=0&single=true&output=csv"
 
 @st.cache_data(ttl=300)
 def carregar_dados():
